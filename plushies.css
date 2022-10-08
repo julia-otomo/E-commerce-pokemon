@@ -1,0 +1,49 @@
+main .container-plushies {
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 80vh;
+    margin-top: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-plushies .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container-plushies .title h2 {
+    color: rgb(52, 28, 75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container-plushies .products {
+    width: 80%;
+    height: 80%;
+    background-color: beige;
+}
+
+.container-plushies .products ul {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-plushies .products ul li a {
+    max-width: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

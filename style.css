@@ -11,8 +11,9 @@ a {
 
 body {
    background: linear-gradient(#f8e2aabd, #f8e2aabd), url(./imagens/header3.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
-
 
  /* Header */
 
