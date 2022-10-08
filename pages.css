@@ -1,4 +1,4 @@
-main .container-plushies {
+main .container-products {
     margin: 0 auto;
     max-width: 1600px;
     height: 80vh;
@@ -12,14 +12,14 @@ main .container-plushies {
     border-radius: 8px;
 }
 
-.container-plushies .title {
+.container-products .title {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.container-plushies .title h2 {
+.container-products .title h2 {
     margin-left: 20px;
     color: rgb(52, 28, 75);
     font-family: 'Poppins', sans-serif;
@@ -27,12 +27,12 @@ main .container-plushies {
     font-weight: 700;
 }
 
-.container-plushies .products {
+.container-products .products {
     width: 80%;
     height: 90%;
 }
 
-.container-plushies .products ul {
+.container-products .products ul {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@ main .container-plushies {
     justify-content: space-between;
 }
 
-.container-plushies .products ul li a {
+.container-products .products ul li a {
     max-width: 250px;
     width: 250px;
     height: 100%;
@@ -50,12 +50,12 @@ main .container-plushies {
     align-items: center;
 }
 
-.container-plushies .products ul li a img {
+.container-products .products ul li a img {
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.container-plushies .products ul li a p {
+.container-products .products ul li a p {
     color: rgb(52, 28, 75);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -65,7 +65,7 @@ main .container-plushies {
     margin-bottom: 5px;
 }
 
-.container-plushies .products ul li a span {
+.container-products .products ul li a span {
     display: block;
     color: rgb(52, 28, 75);
     font-family: 'Poppins', sans-serif;
@@ -75,7 +75,7 @@ main .container-plushies {
     margin-bottom: 10px;
 }
 
-.container-plushies .products ul li a button {
+.container-products .products ul li a button {
     width: 150px;
     height: 30px;
     border: 1px solid #f6ac48;
@@ -87,20 +87,20 @@ main .container-plushies {
     background-color: #fcbb66;
 }
 
-.container-plushies .products ul li a:hover {
+.container-products .products ul li a:hover {
     transform: scale(1.1);
 }
 
-.container-plushies .products ul li a p:hover {
+.container-products .products ul li a p:hover {
     color: rgb(155, 74, 255);
     text-decoration: underline;
 }
 
-.container-plushies .products ul li a button:hover {
+.container-products .products ul li a button:hover {
     background: linear-gradient(45deg, #ffe297e3 0, #ffaaf4dd 50%, #73f3f7d3 100%);
 }
 
-.container-plushies .products ul li a:focus {
+.container-products .products ul li a:focus {
     border: 1px solid grey;
     border-radius: 10px;
     background-color: rgba(243, 241, 241, 0.863);
