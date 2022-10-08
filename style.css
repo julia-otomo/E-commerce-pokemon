@@ -151,6 +151,7 @@ a {
    font-family: 'Poppins', sans-serif;
    font-size: 20px;
    font-weight: 600;
+   margin-bottom: 20px;
  }
 
  .container .main-post a h2:hover {
@@ -174,12 +175,80 @@ a {
  }
  
  .container .popular-pokemon {
-   background-color: azure;
-   width: 80%;
+   height: 20%;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
  }
 
  .container .popular-pokemon ul {
+   width: 70%;
+   height: 80%;
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+.container .popular-pokemon h2 {
+   color: rgb(52, 28, 75);
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 30px;
+ }
+
+ .container .popular-pokemon ul li {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   cursor: pointer;
+ }
+
+
+ .container .popular-pokemon ul li:hover {
+   transform: scale(1.1);
+   opacity: 0.8;
+   color: rgb(155, 74, 255);
+ }
+
+ .container .popular-pokemon ul li img {
+   border-radius: 50%;
+ }
+
+ #mimikyu {
+   background-color: #fedf8c;
+ }
+
+ #gengar {
+   background-color: #b270f0;
+ }
+
+ #marshadow {
+   background-color: #fa8e9c;
+ }
+
+ #pumpkaboo {
+   background-color: #ffb863;
+ }
+
+ #mismagius {
+   background-color: #e28ae8;
+ }
+
+ .container .popular-pokemon ul li p {
+   color: rgb(52, 28, 75);
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .container .popular-pokemon ul li p:hover {
+   color:rgb(155, 74, 255);
+   text-decoration: underline;
  }
 
