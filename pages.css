@@ -1,7 +1,8 @@
 main .container-products {
     margin: 0 auto;
     max-width: 1600px;
-    height: 80vh;
+    height: 90vh;
+    overflow: hidden;
     margin-top: 5px;
     width: 70%;
     display: flex;
