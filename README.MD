@@ -21,7 +21,7 @@ O projeto foi construído baseado em um desafio proposto pela empresa Kenzie Aca
 julia_otomoduarte@outlook.com
 
 > Linkedin
-https://www.linkedin.com/in/julia-otomo-duarte-0353a015a/
+https://www.linkedin.com/in/julia-otomo-duarte/
 
 
 ## Referências para o projeto
